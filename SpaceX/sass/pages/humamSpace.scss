@@ -1,0 +1,139 @@
+.container10 {
+  background-image: url(../../Images/humanFlight/01.jpg);
+}
+
+.container11 {
+  background-image: url(../../Images/humanFlight/02.jpg);
+}
+
+.container12 {
+  background-image: url(../../Images/humanFlight/03.jpg);
+}
+
+.container13 {
+  background-image: url(../../Images/humanFlight/04.jpg);
+}
+
+.container14 {
+  background-image: url(../../Images/humanFlight/05.jpg);
+}
+
+
+.HSTitle {
+  padding-top: 280px;
+  font-family: 'Rubik', sans-serif;
+  font-size: 120px;
+  font-weight: 700;
+}
+
+.HSSubTitle {
+  font-size: 30px;
+  font-weight: 200;
+  margin-bottom: 100px;
+}
+
+.betweenContainers {
+  margin: 100px auto;
+  max-width: 840px;
+  font-size: 20px;
+  
+  a {
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px solid white;
+
+    &:hover {
+      color: $colorLinkHover;
+      border-bottom: 1px solid $colorLinkHover;
+    }
+  }
+}
+
+.pageContentRight {
+  padding-top: 15%;
+  padding-left: 55%;
+}
+
+.pageContentLeft {
+  padding-left: 10%;
+  padding-top: 15%;
+}
+
+.HSShortTitle {
+  font-size: 58px;
+  font-weight: 700;
+  margin: 20px auto;
+}
+
+.HSShortSubTitle {
+  font-size: 16px;
+  font-weight: 200;
+}
+
+@media (max-width: 840px) {
+  .HSTitle {
+    font-size: 80px;  
+  }
+  
+  .HSSubTitle {
+    font-size: 24px;
+  }
+
+  .spacexText {
+    padding: 0 20px;
+  }
+
+  .HSShortTitle {
+    font-size: 48px;    
+  }
+  
+  .HSShortSubTitle {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 570px) {
+   .HSTitle {
+    font-size: 50px;
+  }
+  
+  .HSSubTitle {
+    font-size: 18px;
+  }
+
+    .HSShortTitle {
+    font-size: 30px;    
+  }
+  
+  .HSShortSubTitle {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 390px) {
+
+  .pageContentRight, .pageContentLeft {
+    padding-left: 0%;
+    text-align: center;
+  }
+
+  .HSTitle {
+   font-size: 36px;   
+ }
+ 
+ .HSSubTitle {
+   font-size: 14px;
+ }
+
+ .spacexText {
+  font-size: 16px;
+}
+
+   .HSShortTitle {
+   font-size: 36px;    
+ }
+ 
+ .HSShortSubTitle {
+   font-size: 14px;
+ }
+}
